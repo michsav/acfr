@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:acfr="http://xbrl.us/acfr/v0.3/2021-05-01/acfr"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef
+      xlink:href="https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC8/acfr_all_2021-05-01.xsd"
+      xlink:type="simple"/>
+    <context id="D20200630">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="I20200630_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-06-30</instant>
+        </period>
+    </context>
+    <context id="I20200630_NameOfOtherCurrentLiabilitiesDomain_Reserve_for_property_tax_refunds_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCurrentLiabilitiesAxis">
+                    <acfr:NameOfOtherCurrentLiabilitiesDomain>Reserve for property tax refunds</acfr:NameOfOtherCurrentLiabilitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-06-30</instant>
+        </period>
+    </context>
+    <context id="I20200630_NameOfOtherCurrentLiabilitiesDomain_Workers_compensation_claims_liability_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCurrentLiabilitiesAxis">
+                    <acfr:NameOfOtherCurrentLiabilitiesDomain>Workers compensation claims liability</acfr:NameOfOtherCurrentLiabilitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-06-30</instant>
+        </period>
+    </context>
+    <context id="I20200630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_service_concession_arrangement_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherDeferredInflowsOfResourcesAxis">
+                    <acfr:NameOfOtherDeferredInflowsOfResourcesDomain>Deferred inflows - service concession arrangement</acfr:NameOfOtherDeferredInflowsOfResourcesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-06-30</instant>
+        </period>
+    </context>
+    <context id="I20200630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_property_taxes_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherDeferredInflowsOfResourcesAxis">
+                    <acfr:NameOfOtherDeferredInflowsOfResourcesDomain>Deferred inflows - property taxes</acfr:NameOfOtherDeferredInflowsOfResourcesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-06-30</instant>
+        </period>
+    </context>
+    <context id="I20190630_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2019-06-30</instant>
+        </period>
+    </context>
+    <context id="I20190630_NameOfOtherCurrentLiabilitiesDomain_Reserve_for_property_tax_refunds_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCurrentLiabilitiesAxis">
+                    <acfr:NameOfOtherCurrentLiabilitiesDomain>Reserve for property tax refunds</acfr:NameOfOtherCurrentLiabilitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2019-06-30</instant>
+        </period>
+    </context>
+    <context id="I20190630_NameOfOtherCurrentLiabilitiesDomain_Workers_compensation_claims_liability_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCurrentLiabilitiesAxis">
+                    <acfr:NameOfOtherCurrentLiabilitiesDomain>Workers compensation claims liability</acfr:NameOfOtherCurrentLiabilitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2019-06-30</instant>
+        </period>
+    </context>
+    <context id="I20190630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_service_concession_arrangement_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherDeferredInflowsOfResourcesAxis">
+                    <acfr:NameOfOtherDeferredInflowsOfResourcesDomain>Deferred inflows - service concession arrangement</acfr:NameOfOtherDeferredInflowsOfResourcesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2019-06-30</instant>
+        </period>
+    </context>
+    <context id="I20190630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_property_taxes_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherDeferredInflowsOfResourcesAxis">
+                    <acfr:NameOfOtherDeferredInflowsOfResourcesDomain>Deferred inflows - property taxes</acfr:NameOfOtherDeferredInflowsOfResourcesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2019-06-30</instant>
+        </period>
+    </context>
+    <context id="D20200630_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherOperatingRevenueDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherOperatingRevenueAxis">
+                    <acfr:NameOfOtherOperatingRevenueDomain>State and local government grants and contracts</acfr:NameOfOtherOperatingRevenueDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherOperatingRevenueDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherOperatingRevenueAxis">
+                    <acfr:NameOfOtherOperatingRevenueDomain>Federal government grants and contracts</acfr:NameOfOtherOperatingRevenueDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherNonoperatingRevenuesExpensesDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherNonoperatingRevenuesExpensesAxis">
+                    <acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>State and local government grants and contracts</acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherNonoperatingRevenuesExpensesDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherNonoperatingRevenuesExpensesAxis">
+                    <acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>Federal government grants and contracts</acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherOperatingRevenueDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherOperatingRevenueAxis">
+                    <acfr:NameOfOtherOperatingRevenueDomain>State and local government grants and contracts</acfr:NameOfOtherOperatingRevenueDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherOperatingRevenueDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherOperatingRevenueAxis">
+                    <acfr:NameOfOtherOperatingRevenueDomain>Federal government grants and contracts</acfr:NameOfOtherOperatingRevenueDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherNonoperatingRevenuesExpensesDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherNonoperatingRevenuesExpensesAxis">
+                    <acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>State and local government grants and contracts</acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherNonoperatingRevenuesExpensesDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherNonoperatingRevenuesExpensesAxis">
+                    <acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>Federal government grants and contracts</acfr:NameOfOtherNonoperatingRevenuesExpensesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="I20180630_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2018-06-30</instant>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Student_aid_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromOperatingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>Student aid</acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Auxiliary_enterprises_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromOperatingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>Auxiliary enterprises</acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Property_taxes_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Property taxes</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Personal_property_replacement_taxes_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Personal property replacement taxes</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Receipts_of_student_loan_funds_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Receipts of student loan funds</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Disbursements_of_loan_funds_to_students_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Disbursements of loan funds to students</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Contributions_and_Gifts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Contributions and Gifts</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-07-01</startDate>
+            <endDate>2020-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Student_aid_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromOperatingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>Student aid</acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Auxiliary_enterprises_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromOperatingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>Auxiliary enterprises</acfr:NameOfOtherCashFlowsFromOperatingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Property_taxes_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Property taxes</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Personal_property_replacement_taxes_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Personal property replacement taxes</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Receipts_of_student_loan_funds_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Receipts of student loan funds</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Disbursements_of_loan_funds_to_students_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Disbursements of loan funds to students</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Contributions_and_Gifts_BusinessTypeActivitiesMember">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>Contributions and Gifts</acfr:NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <context id="D20190630_BusinessTypeActivitiesMember_NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain_Proceeds_from_sale_of_bonds">
+        <entity>
+            <identifier scheme="http://www.cafr.gov/CIK">05201902700000</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="acfr:NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesAxis">
+                    <acfr:NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain>Proceeds from sale of bonds</acfr:NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain>
+                </xbrldi:typedMember>
+                <xbrldi:explicitMember dimension="acfr:TypeOfActivitiesAxis">acfr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-07-01</startDate>
+            <endDate>2019-06-30</endDate>
+        </period>
+    </context>
+    <unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+    <acfr:CashAndCashEquivalents
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag38"
+      unitRef="USD">69691026</acfr:CashAndCashEquivalents>
+    <acfr:CashAndCashEquivalents
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag16"
+      unitRef="USD">41371672</acfr:CashAndCashEquivalents>
+    <acfr:Receivables
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag66"
+      unitRef="USD">56278219</acfr:Receivables>
+    <acfr:Receivables
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag54"
+      unitRef="USD">51345075</acfr:Receivables>
+    <acfr:Investments
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag19"
+      unitRef="USD">68541018</acfr:Investments>
+    <acfr:Investments
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag71"
+      unitRef="USD">111212427</acfr:Investments>
+    <acfr:PrepaidExpenses
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag21"
+      unitRef="USD">1102303</acfr:PrepaidExpenses>
+    <acfr:PrepaidExpenses
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag62"
+      unitRef="USD">731171</acfr:PrepaidExpenses>
+    <acfr:CurrentAssets
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag26"
+      unitRef="USD">195612566</acfr:CurrentAssets>
+    <acfr:CurrentAssets
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag33"
+      unitRef="USD">204660345</acfr:CurrentAssets>
+    <acfr:RestrictedCash
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag72"
+      unitRef="USD">2367994</acfr:RestrictedCash>
+    <acfr:RestrictedCash
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag5"
+      unitRef="USD">3768077</acfr:RestrictedCash>
+    <acfr:RestrictedInvestments
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag14"
+      unitRef="USD">2409962</acfr:RestrictedInvestments>
+    <acfr:RestrictedInvestments
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag13"
+      unitRef="USD">4144822</acfr:RestrictedInvestments>
+    <acfr:LongTermInvestments
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag35"
+      unitRef="USD">24930577</acfr:LongTermInvestments>
+    <acfr:LongTermInvestments
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag44"
+      unitRef="USD">8089761</acfr:LongTermInvestments>
+    <acfr:CapitalAssetsNotBeingDepreciated
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag25"
+      unitRef="USD">8470662</acfr:CapitalAssetsNotBeingDepreciated>
+    <acfr:CapitalAssetsNotBeingDepreciated
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag53"
+      unitRef="USD">53892997</acfr:CapitalAssetsNotBeingDepreciated>
+    <acfr:CapitalAssetsBeingDepreciatedNet
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag34"
+      unitRef="USD">258129474</acfr:CapitalAssetsBeingDepreciatedNet>
+    <acfr:CapitalAssetsBeingDepreciatedNet
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag45"
+      unitRef="USD">224940291</acfr:CapitalAssetsBeingDepreciatedNet>
+    <acfr:NonCurrentAssets
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag61"
+      unitRef="USD">296308669</acfr:NonCurrentAssets>
+    <acfr:NonCurrentAssets
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag2"
+      unitRef="USD">294835948</acfr:NonCurrentAssets>
+    <acfr:Assets
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag8"
+      unitRef="USD">491921235</acfr:Assets>
+    <acfr:Assets
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag60"
+      unitRef="USD">499496293</acfr:Assets>
+    <acfr:DeferredOutflowsOfResourcesOPEB
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag6"
+      unitRef="USD">3655904</acfr:DeferredOutflowsOfResourcesOPEB>
+    <acfr:DeferredOutflowsOfResourcesOPEB
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag67"
+      unitRef="USD">3354688</acfr:DeferredOutflowsOfResourcesOPEB>
+    <acfr:DeferredOutflowsFromLossesOnRefundingsOfDebt
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag70"
+      unitRef="USD">2048790</acfr:DeferredOutflowsFromLossesOnRefundingsOfDebt>
+    <acfr:DeferredOutflowsFromLossesOnRefundingsOfDebt
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag4"
+      unitRef="USD">2324342</acfr:DeferredOutflowsFromLossesOnRefundingsOfDebt>
+    <acfr:DeferredOutflowsOfResources
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag7"
+      unitRef="USD">5704694</acfr:DeferredOutflowsOfResources>
+    <acfr:DeferredOutflowsOfResources
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag28"
+      unitRef="USD">5679030</acfr:DeferredOutflowsOfResources>
+    <acfr:AccountsPayableAndAccruedExpenses
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag9"
+      unitRef="USD">3743196</acfr:AccountsPayableAndAccruedExpenses>
+    <acfr:AccountsPayableAndAccruedExpenses
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag11"
+      unitRef="USD">4928547</acfr:AccountsPayableAndAccruedExpenses>
+    <acfr:OtherCurrentLiabilities
+      contextRef="I20200630_NameOfOtherCurrentLiabilitiesDomain_Reserve_for_property_tax_refunds_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag12"
+      unitRef="USD">2299140</acfr:OtherCurrentLiabilities>
+    <acfr:OtherCurrentLiabilities
+      contextRef="I20190630_NameOfOtherCurrentLiabilitiesDomain_Reserve_for_property_tax_refunds_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag23"
+      unitRef="USD">2556003</acfr:OtherCurrentLiabilities>
+    <acfr:AccruedWagesAndRelatedLiabilitiesPayable
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag59"
+      unitRef="USD">7032995</acfr:AccruedWagesAndRelatedLiabilitiesPayable>
+    <acfr:AccruedWagesAndRelatedLiabilitiesPayable
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag32"
+      unitRef="USD">5962265</acfr:AccruedWagesAndRelatedLiabilitiesPayable>
+    <acfr:DepositsHeldInCustodyForOthers
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag73"
+      unitRef="USD">645578</acfr:DepositsHeldInCustodyForOthers>
+    <acfr:DepositsHeldInCustodyForOthers
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag63"
+      unitRef="USD">823024</acfr:DepositsHeldInCustodyForOthers>
+    <acfr:UnearnedTuitionAndFeeRevenues
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag50"
+      unitRef="USD">11545546</acfr:UnearnedTuitionAndFeeRevenues>
+    <acfr:UnearnedTuitionAndFeeRevenues
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag47"
+      unitRef="USD">12835233</acfr:UnearnedTuitionAndFeeRevenues>
+    <acfr:OtherCurrentLiabilities
+      contextRef="I20200630_NameOfOtherCurrentLiabilitiesDomain_Workers_compensation_claims_liability_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag76"
+      unitRef="USD">199052</acfr:OtherCurrentLiabilities>
+    <acfr:OtherCurrentLiabilities
+      contextRef="I20190630_NameOfOtherCurrentLiabilitiesDomain_Workers_compensation_claims_liability_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag36"
+      unitRef="USD">548503</acfr:OtherCurrentLiabilities>
+    <acfr:NoncurrentLiabilitiesDueWithinOneYear
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag65"
+      unitRef="USD">16425000</acfr:NoncurrentLiabilitiesDueWithinOneYear>
+    <acfr:NoncurrentLiabilitiesDueWithinOneYear
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag3"
+      unitRef="USD">14205000</acfr:NoncurrentLiabilitiesDueWithinOneYear>
+    <acfr:CurrentLiabilities
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag51"
+      unitRef="USD">41890507</acfr:CurrentLiabilities>
+    <acfr:OtherNoncurrentLiabilities
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag49"
+      unitRef="USD">41858575</acfr:OtherNoncurrentLiabilities>
+    <acfr:BondPayableNoncurrent
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag74"
+      unitRef="USD">102201697</acfr:BondPayableNoncurrent>
+    <acfr:BondPayableNoncurrent
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag29"
+      unitRef="USD">120644515</acfr:BondPayableNoncurrent>
+    <acfr:UnearnedRevenue
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag1"
+      unitRef="USD">800211</acfr:UnearnedRevenue>
+    <acfr:UnearnedRevenue
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag31"
+      unitRef="USD">913184</acfr:UnearnedRevenue>
+    <acfr:NetOPEBLiability
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag52"
+      unitRef="USD">73034940</acfr:NetOPEBLiability>
+    <acfr:NetOPEBLiability
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag20"
+      unitRef="USD">72977857</acfr:NetOPEBLiability>
+    <acfr:NonCurrentLiabilities
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag43"
+      unitRef="USD">176036848</acfr:NonCurrentLiabilities>
+    <acfr:NonCurrentLiabilities
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag41"
+      unitRef="USD">194535556</acfr:NonCurrentLiabilities>
+    <acfr:Liabilities
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag64"
+      unitRef="USD">217927355</acfr:Liabilities>
+    <acfr:Liabilities
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag55"
+      unitRef="USD">236394131</acfr:Liabilities>
+    <acfr:DeferredInflowsOfResourcesOPEB
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag37"
+      unitRef="USD">10482175</acfr:DeferredInflowsOfResourcesOPEB>
+    <acfr:DeferredInflowsOfResourcesOPEB
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag39"
+      unitRef="USD">8152090</acfr:DeferredInflowsOfResourcesOPEB>
+    <acfr:OtherDeferredInflowsOfResources
+      contextRef="I20200630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_service_concession_arrangement_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag46"
+      unitRef="USD">7536476</acfr:OtherDeferredInflowsOfResources>
+    <acfr:OtherDeferredInflowsOfResources
+      contextRef="I20190630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_service_concession_arrangement_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag18"
+      unitRef="USD">8344255</acfr:OtherDeferredInflowsOfResources>
+    <acfr:OtherDeferredInflowsOfResources
+      contextRef="I20200630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_property_taxes_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag69"
+      unitRef="USD">43136119</acfr:OtherDeferredInflowsOfResources>
+    <acfr:OtherDeferredInflowsOfResources
+      contextRef="I20190630_NameOfOtherDeferredInflowsOfResourcesDomain_Deferred_inflows_-_property_taxes_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag56"
+      unitRef="USD">41310835</acfr:OtherDeferredInflowsOfResources>
+    <acfr:DeferredInflowsOfResources
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag68"
+      unitRef="USD">61154770</acfr:DeferredInflowsOfResources>
+    <acfr:DeferredInflowsOfResources
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag10"
+      unitRef="USD">57807180</acfr:DeferredInflowsOfResources>
+    <acfr:NetInvestmentInCapitalAssets
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag48"
+      unitRef="USD">158319802</acfr:NetInvestmentInCapitalAssets>
+    <acfr:NetInvestmentInCapitalAssets
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag58"
+      unitRef="USD">159703637</acfr:NetInvestmentInCapitalAssets>
+    <acfr:RestrictedNetPositionForWorkingCash
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag75"
+      unitRef="USD">9680000</acfr:RestrictedNetPositionForWorkingCash>
+    <acfr:RestrictedNetPositionForWorkingCash
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag40"
+      unitRef="USD">9680000</acfr:RestrictedNetPositionForWorkingCash>
+    <acfr:RestrictedNetPositionForDebtService
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag42"
+      unitRef="USD">10248920</acfr:RestrictedNetPositionForDebtService>
+    <acfr:RestrictedNetPositionForDebtService
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag22"
+      unitRef="USD">8443761</acfr:RestrictedNetPositionForDebtService>
+    <acfr:RestrictedNetPositionForCapitalProjects
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag27"
+      unitRef="USD">6515896</acfr:RestrictedNetPositionForCapitalProjects>
+    <acfr:RestrictedNetPositionForCapitalProjects
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag24"
+      unitRef="USD">5857646</acfr:RestrictedNetPositionForCapitalProjects>
+    <acfr:UnrestrictedNetPosition
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag57"
+      unitRef="USD">33779186</acfr:UnrestrictedNetPosition>
+    <acfr:UnrestrictedNetPosition
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag30"
+      unitRef="USD">27288968</acfr:UnrestrictedNetPosition>
+    <acfr:NetPosition
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag15"
+      unitRef="USD">218543804</acfr:NetPosition>
+    <acfr:NetPosition
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag17"
+      unitRef="USD">210974012</acfr:NetPosition>
+    <acfr:ScholarshipAllowances
+      contextRef="D20200630"
+      decimals="0"
+      id="Tag103"
+      unitRef="USD">10535956</acfr:ScholarshipAllowances>
+    <acfr:ScholarshipAllowances
+      contextRef="D20190630"
+      decimals="0"
+      id="Tag115"
+      unitRef="USD">11309892</acfr:ScholarshipAllowances>
+    <acfr:RevenueFromTuitionAndFeesNetOfAllowances
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag87"
+      unitRef="USD">41494837</acfr:RevenueFromTuitionAndFeesNetOfAllowances>
+    <acfr:RevenueFromTuitionAndFeesNetOfAllowances
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag89"
+      unitRef="USD">39635009</acfr:RevenueFromTuitionAndFeesNetOfAllowances>
+    <acfr:OtherOperatingRevenue
+      contextRef="D20200630_NameOfOtherOperatingRevenueDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag84"
+      unitRef="USD">3064151</acfr:OtherOperatingRevenue>
+    <acfr:OtherOperatingRevenue
+      contextRef="D20190630_NameOfOtherOperatingRevenueDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag148"
+      unitRef="USD">2404862</acfr:OtherOperatingRevenue>
+    <acfr:OtherOperatingRevenue
+      contextRef="D20200630_NameOfOtherOperatingRevenueDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag140"
+      unitRef="USD">982606</acfr:OtherOperatingRevenue>
+    <acfr:OtherOperatingRevenue
+      contextRef="D20190630_NameOfOtherOperatingRevenueDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag132"
+      unitRef="USD">1477044</acfr:OtherOperatingRevenue>
+    <acfr:FeesFromSalesAndService
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag124"
+      unitRef="USD">1539510</acfr:FeesFromSalesAndService>
+    <acfr:FeesFromSalesAndService
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag116"
+      unitRef="USD">1348191</acfr:FeesFromSalesAndService>
+    <acfr:RevenuefromAuxiliaryEnterprises
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag108"
+      unitRef="USD">697063</acfr:RevenuefromAuxiliaryEnterprises>
+    <acfr:RevenuefromAuxiliaryEnterprises
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag98"
+      unitRef="USD">938099</acfr:RevenuefromAuxiliaryEnterprises>
+    <acfr:OtherOperatingRevenue
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag88"
+      unitRef="USD">498185</acfr:OtherOperatingRevenue>
+    <acfr:OtherOperatingRevenue
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag94"
+      unitRef="USD">631118</acfr:OtherOperatingRevenue>
+    <acfr:RevenueOperating
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag145"
+      unitRef="USD">48276352</acfr:RevenueOperating>
+    <acfr:RevenueOperating
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag137"
+      unitRef="USD">46434323</acfr:RevenueOperating>
+    <acfr:ExpendituresForInstruction
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag125"
+      unitRef="USD">60046710</acfr:ExpendituresForInstruction>
+    <acfr:ExpendituresForInstruction
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag117"
+      unitRef="USD">57554978</acfr:ExpendituresForInstruction>
+    <acfr:ExpendituresForAcademicSupport
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag105"
+      unitRef="USD">15420840</acfr:ExpendituresForAcademicSupport>
+    <acfr:ExpendituresForAcademicSupport
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag97"
+      unitRef="USD">14293842</acfr:ExpendituresForAcademicSupport>
+    <acfr:ExpendituresForStudentService
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag91"
+      unitRef="USD">20085457</acfr:ExpendituresForStudentService>
+    <acfr:ExpendituresForStudentService
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag138"
+      unitRef="USD">20057389</acfr:ExpendituresForStudentService>
+    <acfr:ExpendituresForOtherPublicServices
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag146"
+      unitRef="USD">5848302</acfr:ExpendituresForOtherPublicServices>
+    <acfr:ExpendituresForOtherPublicServices
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag122"
+      unitRef="USD">6898650</acfr:ExpendituresForOtherPublicServices>
+    <acfr:ExpendituresForOperationsAndMaintenanceOfPlant
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag130"
+      unitRef="USD">17349815</acfr:ExpendituresForOperationsAndMaintenanceOfPlant>
+    <acfr:ExpendituresForOperationsAndMaintenanceOfPlant
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag110"
+      unitRef="USD">17491443</acfr:ExpendituresForOperationsAndMaintenanceOfPlant>
+    <acfr:ExpendituresForInstitutionalSupport
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag104"
+      unitRef="USD">60967561</acfr:ExpendituresForInstitutionalSupport>
+    <acfr:ExpendituresForInstitutionalSupport
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag96"
+      unitRef="USD">56450846</acfr:ExpendituresForInstitutionalSupport>
+    <acfr:ExpendituresForStudentGrantsAndScholarships
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag86"
+      unitRef="USD">7070852</acfr:ExpendituresForStudentGrantsAndScholarships>
+    <acfr:ExpendituresForStudentGrantsAndScholarships
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag114"
+      unitRef="USD">5520155</acfr:ExpendituresForStudentGrantsAndScholarships>
+    <acfr:ExpendituresForAuxiliaryEnterprises
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag135"
+      unitRef="USD">1951311</acfr:ExpendituresForAuxiliaryEnterprises>
+    <acfr:ExpendituresForAuxiliaryEnterprises
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag126"
+      unitRef="USD">2164282</acfr:ExpendituresForAuxiliaryEnterprises>
+    <acfr:ExpendituresForDepreciation
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag119"
+      unitRef="USD">14056243</acfr:ExpendituresForDepreciation>
+    <acfr:ExpendituresForDepreciation
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag111"
+      unitRef="USD">12527028</acfr:ExpendituresForDepreciation>
+    <acfr:OperatingExpense
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag107"
+      unitRef="USD">202797091</acfr:OperatingExpense>
+    <acfr:OperatingExpense
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag99"
+      unitRef="USD">192958613</acfr:OperatingExpense>
+    <acfr:OperatingIncomeLoss
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag79"
+      unitRef="USD">154520739</acfr:OperatingIncomeLoss>
+    <acfr:OperatingIncomeLoss
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag113"
+      unitRef="USD">146524290</acfr:OperatingIncomeLoss>
+    <acfr:RevenueFromPropertyTax
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag143"
+      unitRef="USD">82928590</acfr:RevenueFromPropertyTax>
+    <acfr:RevenueFromPropertyTax
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag80"
+      unitRef="USD">80000872</acfr:RevenueFromPropertyTax>
+    <acfr:StateAppropriations
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag144"
+      unitRef="USD">8344915</acfr:StateAppropriations>
+    <acfr:StateAppropriations
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag136"
+      unitRef="USD">7478490</acfr:StateAppropriations>
+    <acfr:StateRetirementPlanContributions
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag129"
+      unitRef="USD">45117139</acfr:StateRetirementPlanContributions>
+    <acfr:StateRetirementPlanContributions
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag120"
+      unitRef="USD">39726664</acfr:StateRetirementPlanContributions>
+    <acfr:StateOPEBContribution
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag112"
+      unitRef="USD">2753154</acfr:StateOPEBContribution>
+    <acfr:StateOPEBContribution
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag102"
+      unitRef="USD">4143945</acfr:StateOPEBContribution>
+    <acfr:PersonalPropertyReplacementTax
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag92"
+      unitRef="USD">1026836</acfr:PersonalPropertyReplacementTax>
+    <acfr:PersonalPropertyReplacementTax
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag85"
+      unitRef="USD">949644</acfr:PersonalPropertyReplacementTax>
+    <acfr:OtherNonoperatingRevenuesExpenses
+      contextRef="D20200630_NameOfOtherNonoperatingRevenuesExpensesDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag141"
+      unitRef="USD">3804702</acfr:OtherNonoperatingRevenuesExpenses>
+    <acfr:OtherNonoperatingRevenuesExpenses
+      contextRef="D20190630_NameOfOtherNonoperatingRevenuesExpensesDomain_State_and_local_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag133"
+      unitRef="USD">4246734</acfr:OtherNonoperatingRevenuesExpenses>
+    <acfr:OtherNonoperatingRevenuesExpenses
+      contextRef="D20200630_NameOfOtherNonoperatingRevenuesExpensesDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag128"
+      unitRef="USD">18127144</acfr:OtherNonoperatingRevenuesExpenses>
+    <acfr:OtherNonoperatingRevenuesExpenses
+      contextRef="D20190630_NameOfOtherNonoperatingRevenuesExpensesDomain_Federal_government_grants_and_contracts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag121"
+      unitRef="USD">14701082</acfr:OtherNonoperatingRevenuesExpenses>
+    <acfr:Gifts
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag109"
+      unitRef="USD">275842</acfr:Gifts>
+    <acfr:Gifts
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag101"
+      unitRef="USD">247489</acfr:Gifts>
+    <acfr:RevenueFromInvestmentIncome
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag95"
+      unitRef="USD">3097885</acfr:RevenueFromInvestmentIncome>
+    <acfr:RevenueFromInvestmentIncome
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag78"
+      unitRef="USD">3637575</acfr:RevenueFromInvestmentIncome>
+    <acfr:ExpendituresInterestPayments
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag81"
+      unitRef="USD">3781518</acfr:ExpendituresInterestPayments>
+    <acfr:ExpendituresInterestPayments
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag142"
+      unitRef="USD">4289903</acfr:ExpendituresInterestPayments>
+    <acfr:OtherNonoperatingRevenuesExpenses
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag134"
+      unitRef="USD">269017</acfr:OtherNonoperatingRevenuesExpenses>
+    <acfr:OtherNonoperatingRevenuesExpenses
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag127"
+      unitRef="USD">378541</acfr:OtherNonoperatingRevenuesExpenses>
+    <acfr:NonoperatingGainLoss
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag118"
+      unitRef="USD">161963706</acfr:NonoperatingGainLoss>
+    <acfr:NonoperatingGainLoss
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag106"
+      unitRef="USD">151221133</acfr:NonoperatingGainLoss>
+    <acfr:ChangesInNetPositionBusinessTypeActivitiesEnterpriseFunds
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag100"
+      unitRef="USD">7442967</acfr:ChangesInNetPositionBusinessTypeActivitiesEnterpriseFunds>
+    <acfr:ChangesInNetPositionBusinessTypeActivitiesEnterpriseFunds
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag90"
+      unitRef="USD">4696843</acfr:ChangesInNetPositionBusinessTypeActivitiesEnterpriseFunds>
+    <acfr:ContributionsCapital
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag83"
+      unitRef="USD">126825</acfr:ContributionsCapital>
+    <acfr:ChangesInNetPositionBusinessTypeActivities
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag147"
+      unitRef="USD">7569792</acfr:ChangesInNetPositionBusinessTypeActivities>
+    <acfr:ChangesInNetPositionBusinessTypeActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag139"
+      unitRef="USD">4696843</acfr:ChangesInNetPositionBusinessTypeActivities>
+    <acfr:NetPosition
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag82"
+      unitRef="USD">210974012</acfr:NetPosition>
+    <acfr:NetPosition
+      contextRef="I20180630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag93"
+      unitRef="USD">206277169</acfr:NetPosition>
+    <acfr:NetPosition
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag131"
+      unitRef="USD">218543804</acfr:NetPosition>
+    <acfr:NetPosition
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag123"
+      unitRef="USD">210974012</acfr:NetPosition>
+    <acfr:CashProvidedByTuitionAndFees
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag199"
+      unitRef="USD">39482055</acfr:CashProvidedByTuitionAndFees>
+    <acfr:CashProvidedByTuitionAndFees
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag151"
+      unitRef="USD">39453719</acfr:CashProvidedByTuitionAndFees>
+    <acfr:OtherCashFlowsFromOperatingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Student_aid_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag197"
+      unitRef="USD">2501530</acfr:OtherCashFlowsFromOperatingActivities>
+    <acfr:OtherCashFlowsFromOperatingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Student_aid_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag77"
+      unitRef="USD">3434971</acfr:OtherCashFlowsFromOperatingActivities>
+    <acfr:CashProvidedBySalesAndServices
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag160"
+      unitRef="USD">1539510</acfr:CashProvidedBySalesAndServices>
+    <acfr:CashProvidedBySalesAndServices
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag187"
+      unitRef="USD">1348191</acfr:CashProvidedBySalesAndServices>
+    <acfr:CashUsedInPaymentsToSuppliers
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag181"
+      unitRef="USD">50474561</acfr:CashUsedInPaymentsToSuppliers>
+    <acfr:CashUsedInPaymentsToSuppliers
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag180"
+      unitRef="USD">47112035</acfr:CashUsedInPaymentsToSuppliers>
+    <acfr:CashUsedInPaymentsToEmployees
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag150"
+      unitRef="USD">89374686</acfr:CashUsedInPaymentsToEmployees>
+    <acfr:CashUsedInPaymentsToEmployees
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag185"
+      unitRef="USD">87948314</acfr:CashUsedInPaymentsToEmployees>
+    <acfr:OtherCashFlowsFromOperatingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Auxiliary_enterprises_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag188"
+      unitRef="USD">545617</acfr:OtherCashFlowsFromOperatingActivities>
+    <acfr:OtherCashFlowsFromOperatingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Auxiliary_enterprises_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag167"
+      unitRef="USD">2135403</acfr:OtherCashFlowsFromOperatingActivities>
+    <acfr:OtherCashFlowsFromOperatingActivities
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag190"
+      unitRef="USD">330996</acfr:OtherCashFlowsFromOperatingActivities>
+    <acfr:OtherCashFlowsFromOperatingActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag184"
+      unitRef="USD">2345378</acfr:OtherCashFlowsFromOperatingActivities>
+    <acfr:NetCashProvidedByUsedInOperatingActivities
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag162"
+      unitRef="USD">96111531</acfr:NetCashProvidedByUsedInOperatingActivities>
+    <acfr:NetCashProvidedByUsedInOperatingActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag164"
+      unitRef="USD">86342687</acfr:NetCashProvidedByUsedInOperatingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Property_taxes_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag183"
+      unitRef="USD">81227748</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Property_taxes_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag196"
+      unitRef="USD">79673586</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:CashProvidedByStateAppropriations
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag165"
+      unitRef="USD">8344915</acfr:CashProvidedByStateAppropriations>
+    <acfr:CashProvidedByStateAppropriations
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag172"
+      unitRef="USD">7478490</acfr:CashProvidedByStateAppropriations>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Personal_property_replacement_taxes_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag163"
+      unitRef="USD">1026836</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Personal_property_replacement_taxes_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag161"
+      unitRef="USD">949644</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Receipts_of_student_loan_funds_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag159"
+      unitRef="USD">10535956</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Receipts_of_student_loan_funds_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag195"
+      unitRef="USD">11309892</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Disbursements_of_loan_funds_to_students_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag193"
+      unitRef="USD">10535956</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Disbursements_of_loan_funds_to_students_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag186"
+      unitRef="USD">11309892</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20200630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Contributions_and_Gifts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag177"
+      unitRef="USD">275842</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:OtherCashFlowsFromNonCapitalFinancingActivities
+      contextRef="D20190630_NameOfOtherCashFlowsFromNonCapitalFinancingActivitiesDomain_Contributions_and_Gifts_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag158"
+      unitRef="USD">247489</acfr:OtherCashFlowsFromNonCapitalFinancingActivities>
+    <acfr:CashProvidedByGrantsAndContracts
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag182"
+      unitRef="USD">21931846</acfr:CashProvidedByGrantsAndContracts>
+    <acfr:CashProvidedByGrantsAndContracts
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag170"
+      unitRef="USD">18947816</acfr:CashProvidedByGrantsAndContracts>
+    <acfr:NetCashFromNonCapitalFinancingActivities
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag201"
+      unitRef="USD">112807187</acfr:NetCashFromNonCapitalFinancingActivities>
+    <acfr:NetCashFromNonCapitalFinancingActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag203"
+      unitRef="USD">107297025</acfr:NetCashFromNonCapitalFinancingActivities>
+    <acfr:CashUsedInPurchasesOfCapitalAssets
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag173"
+      unitRef="USD">1466826</acfr:CashUsedInPurchasesOfCapitalAssets>
+    <acfr:CashUsedInPurchasesOfCapitalAssets
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag149"
+      unitRef="USD">16681674</acfr:CashUsedInPurchasesOfCapitalAssets>
+    <acfr:CashProvidedByProceedsFromSaleOfBonds
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag175"
+      unitRef="USD">4815299</acfr:CashProvidedByProceedsFromSaleOfBonds>
+    <acfr:OtherCashFlowsFromCapitalAndRelatedFinancingActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember_NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain_Proceeds_from_sale_of_bonds"
+      decimals="0"
+      id="Tag192"
+      unitRef="USD">75783</acfr:OtherCashFlowsFromCapitalAndRelatedFinancingActivities>
+    <acfr:CashUsedInBondPrincipalPayments
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag152"
+      unitRef="USD">14205000</acfr:CashUsedInBondPrincipalPayments>
+    <acfr:CashUsedInBondPrincipalPayments
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag189"
+      unitRef="USD">13680000</acfr:CashUsedInBondPrincipalPayments>
+    <acfr:CashUsedInInterestPaidOnBonds
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag194"
+      unitRef="USD">5523784</acfr:CashUsedInInterestPaidOnBonds>
+    <acfr:CashUsedInInterestPaidOnBonds
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag169"
+      unitRef="USD">5819584</acfr:CashUsedInInterestPaidOnBonds>
+    <acfr:NetCashFromCapitalAndRelatedFinancingActivities
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag191"
+      unitRef="USD">21195610</acfr:NetCashFromCapitalAndRelatedFinancingActivities>
+    <acfr:NetCashFromCapitalAndRelatedFinancingActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag179"
+      unitRef="USD">31441742</acfr:NetCashFromCapitalAndRelatedFinancingActivities>
+    <acfr:CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag198"
+      unitRef="USD">718599761</acfr:CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments>
+    <acfr:CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag200"
+      unitRef="USD">662004761</acfr:CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments>
+    <acfr:CashUsedInPurchaseOfInvestments
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag166"
+      unitRef="USD">691034308</acfr:CashUsedInPurchaseOfInvestments>
+    <acfr:CashUsedInPurchaseOfInvestments
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag174"
+      unitRef="USD">677120496</acfr:CashUsedInPurchaseOfInvestments>
+    <acfr:CashProvidedByInterestIncome
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag153"
+      unitRef="USD">3853772</acfr:CashProvidedByInterestIncome>
+    <acfr:CashProvidedByInterestIncome
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag171"
+      unitRef="USD">2875004</acfr:CashProvidedByInterestIncome>
+    <acfr:NetCashProvidedByUsedInInvestingActivities
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag176"
+      unitRef="USD">31419225</acfr:NetCashProvidedByUsedInInvestingActivities>
+    <acfr:NetCashProvidedByUsedInInvestingActivities
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag157"
+      unitRef="USD">12240731</acfr:NetCashProvidedByUsedInInvestingActivities>
+    <acfr:CashAndCashEquivalentsPeriodIncreaseDecrease
+      contextRef="D20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag154"
+      unitRef="USD">26919271</acfr:CashAndCashEquivalentsPeriodIncreaseDecrease>
+    <acfr:CashAndCashEquivalentsPeriodIncreaseDecrease
+      contextRef="D20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag155"
+      unitRef="USD">22728135</acfr:CashAndCashEquivalentsPeriodIncreaseDecrease>
+    <acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag168"
+      unitRef="USD">45139749</acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+    <acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents
+      contextRef="I20180630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag202"
+      unitRef="USD">67867884</acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+    <acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents
+      contextRef="I20200630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag178"
+      unitRef="USD">72059020</acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+    <acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents
+      contextRef="I20190630_BusinessTypeActivitiesMember"
+      decimals="0"
+      id="Tag156"
+      unitRef="USD">45139749</acfr:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+</xbrl>
