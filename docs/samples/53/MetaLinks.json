@@ -1,6 +1,6 @@
 {
  "instance": {
-  "Scottsdale_Financials_SEFA.html": {
+  "scottsdale.html": {
    "axisCustom": 0,
    "axisStandard": 36,
    "contextCount": 758,
@@ -13,7 +13,7 @@
     },
     "inline": {
      "local": [
-      "Scottsdale_Financials_SEFA.html"
+      "scottsdale.html"
      ]
     },
     "labelLink": {
@@ -85,7 +85,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -111,7 +111,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "lang": "en",
@@ -133,7 +133,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_432",
       "decimals": "-3",
       "first": true,
@@ -159,7 +159,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_433",
       "decimals": "-3",
       "lang": "en",
@@ -181,7 +181,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_351",
       "decimals": "-3",
       "first": true,
@@ -208,7 +208,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_351",
       "decimals": "-3",
       "first": true,
@@ -231,7 +231,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -257,7 +257,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_258",
       "decimals": "-3",
       "lang": "en",
@@ -279,7 +279,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_258",
       "decimals": "-3",
       "first": true,
@@ -305,7 +305,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_323",
       "decimals": "-3",
       "lang": "en",
@@ -327,7 +327,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_348",
       "decimals": "-3",
       "first": true,
@@ -354,7 +354,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_348",
       "decimals": "-3",
       "first": true,
@@ -377,7 +377,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_257",
       "decimals": "-3",
       "first": true,
@@ -404,7 +404,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_257",
       "decimals": "-3",
       "first": true,
@@ -427,7 +427,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_11",
       "decimals": "-3",
       "first": true,
@@ -454,7 +454,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_11",
       "decimals": "-3",
       "first": true,
@@ -477,7 +477,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_368",
       "decimals": "-3",
       "first": true,
@@ -504,7 +504,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_368",
       "decimals": "-3",
       "first": true,
@@ -527,7 +527,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_376",
       "decimals": "-3",
       "first": true,
@@ -554,7 +554,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_376",
       "decimals": "-3",
       "first": true,
@@ -577,7 +577,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -606,7 +606,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_258",
       "decimals": "-3",
       "first": true,
@@ -633,7 +633,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_258",
       "decimals": "-3",
       "first": true,
@@ -656,7 +656,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_366",
       "decimals": "-3",
       "first": true,
@@ -683,7 +683,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_366",
       "decimals": "-3",
       "first": true,
@@ -706,7 +706,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_374",
       "decimals": "-3",
       "first": true,
@@ -733,7 +733,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_374",
       "decimals": "-3",
       "first": true,
@@ -756,7 +756,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_257",
       "decimals": "-3",
       "first": true,
@@ -783,7 +783,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_257",
       "decimals": "-3",
       "first": true,
@@ -806,7 +806,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -835,7 +835,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -864,7 +864,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_455",
       "decimals": "-3",
       "first": true,
@@ -891,7 +891,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_455",
       "decimals": "-3",
       "first": true,
@@ -914,7 +914,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -943,7 +943,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -972,7 +972,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1001,7 +1001,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1030,7 +1030,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1059,7 +1059,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1085,7 +1085,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_2",
       "decimals": "-3",
       "lang": "en",
@@ -1107,7 +1107,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -1136,7 +1136,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -1165,7 +1165,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1194,7 +1194,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_79",
       "decimals": null,
       "first": true,
@@ -1223,7 +1223,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1252,7 +1252,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "0",
       "first": true,
@@ -1278,7 +1278,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_698",
       "decimals": "0",
       "lang": "en",
@@ -1300,7 +1300,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "0",
       "first": true,
@@ -1329,7 +1329,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_747",
       "decimals": "0",
       "first": true,
@@ -1356,7 +1356,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_747",
       "decimals": "0",
       "first": true,
@@ -1379,7 +1379,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "0",
       "first": true,
@@ -1405,7 +1405,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_746",
       "decimals": "0",
       "lang": "en",
@@ -1427,7 +1427,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "0",
       "first": true,
@@ -1453,7 +1453,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": null,
       "first": true,
@@ -1477,7 +1477,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": null,
       "first": true,
@@ -1500,7 +1500,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_698",
       "decimals": null,
       "first": true,
@@ -1527,7 +1527,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_698",
       "decimals": null,
       "first": true,
@@ -1550,7 +1550,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_698",
       "decimals": null,
       "first": true,
@@ -1589,7 +1589,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_396",
       "decimals": "-3",
       "first": true,
@@ -1616,7 +1616,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_396",
       "decimals": "-3",
       "first": true,
@@ -1639,7 +1639,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -1665,7 +1665,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "lang": "en",
@@ -1687,7 +1687,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -1713,7 +1713,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "lang": "en",
@@ -1735,7 +1735,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_478",
       "decimals": "-3",
       "first": true,
@@ -1762,7 +1762,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_478",
       "decimals": "-3",
       "first": true,
@@ -1785,7 +1785,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -1811,7 +1811,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_508",
       "decimals": "-3",
       "lang": "en",
@@ -1833,7 +1833,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_511",
       "decimals": "-3",
       "first": true,
@@ -1860,7 +1860,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_511",
       "decimals": "-3",
       "first": true,
@@ -1883,7 +1883,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_536",
       "decimals": "-3",
       "first": true,
@@ -1910,7 +1910,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_536",
       "decimals": "-3",
       "first": true,
@@ -1933,7 +1933,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1962,7 +1962,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -1988,7 +1988,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_19",
       "decimals": "-3",
       "lang": "en",
@@ -2010,7 +2010,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -2039,7 +2039,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_59",
       "decimals": "-3",
       "first": true,
@@ -2066,7 +2066,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_59",
       "decimals": "-3",
       "first": true,
@@ -2089,7 +2089,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -2118,7 +2118,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -2147,7 +2147,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_432",
       "decimals": "-3",
       "first": true,
@@ -2176,7 +2176,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -2205,7 +2205,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_19",
       "decimals": "-3",
       "first": true,
@@ -2231,7 +2231,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_74",
       "decimals": "-3",
       "lang": "en",
@@ -2253,7 +2253,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -2279,7 +2279,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_544",
       "decimals": "-3",
       "lang": "en",
@@ -2301,7 +2301,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_19",
       "decimals": "-3",
       "first": true,
@@ -2330,7 +2330,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_19",
       "decimals": "-3",
       "first": true,
@@ -2359,7 +2359,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_19",
       "decimals": "-3",
       "first": true,
@@ -2388,7 +2388,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2415,7 +2415,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2438,7 +2438,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_63",
       "decimals": "-3",
       "first": true,
@@ -2465,7 +2465,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_63",
       "decimals": "-3",
       "first": true,
@@ -2488,7 +2488,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_627",
       "decimals": "-3",
       "first": true,
@@ -2517,7 +2517,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2546,7 +2546,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2572,7 +2572,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_78",
       "decimals": "-3",
       "lang": "en",
@@ -2594,7 +2594,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2620,7 +2620,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_548",
       "decimals": "-3",
       "lang": "en",
@@ -2642,7 +2642,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2671,7 +2671,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2700,7 +2700,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_23",
       "decimals": "-3",
       "first": true,
@@ -2729,7 +2729,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -2755,7 +2755,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_79",
       "decimals": "-3",
       "lang": "en",
@@ -2777,7 +2777,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_79",
       "decimals": "-3",
       "first": true,
@@ -2803,7 +2803,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_109",
       "decimals": "-3",
       "lang": "en",
@@ -2825,7 +2825,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -2851,7 +2851,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_412",
       "decimals": "-3",
       "lang": "en",
@@ -2873,7 +2873,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_559",
       "decimals": "-3",
       "first": true,
@@ -2900,7 +2900,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_559",
       "decimals": "-3",
       "first": true,
@@ -2923,7 +2923,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_79",
       "decimals": "-3",
       "first": true,
@@ -2949,7 +2949,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_224",
       "decimals": "-3",
       "lang": "en",
@@ -2971,7 +2971,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_83",
       "decimals": "-3",
       "first": true,
@@ -2998,7 +2998,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_83",
       "decimals": "-3",
       "first": true,
@@ -3021,7 +3021,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_83",
       "decimals": "-3",
       "first": true,
@@ -3047,7 +3047,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_113",
       "decimals": "-3",
       "lang": "en",
@@ -3069,7 +3069,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_563",
       "decimals": "-3",
       "first": true,
@@ -3096,7 +3096,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_563",
       "decimals": "-3",
       "first": true,
@@ -3119,7 +3119,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_83",
       "decimals": "-3",
       "first": true,
@@ -3145,7 +3145,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_228",
       "decimals": "-3",
       "lang": "en",
@@ -3167,7 +3167,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -3193,7 +3193,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_0",
       "decimals": "-3",
       "lang": "en",
@@ -3215,7 +3215,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_593",
       "decimals": "-3",
       "first": true,
@@ -3242,7 +3242,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_593",
       "decimals": "-3",
       "first": true,
@@ -3265,7 +3265,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_417",
       "decimals": "-3",
       "first": true,
@@ -3291,7 +3291,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_416",
       "decimals": "-3",
       "lang": "en",
@@ -3313,7 +3313,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_662",
       "decimals": "-3",
       "first": true,
@@ -3340,7 +3340,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_662",
       "decimals": "-3",
       "first": true,
@@ -3363,7 +3363,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -3392,7 +3392,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_627",
       "decimals": "-3",
       "first": true,
@@ -3421,7 +3421,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_682",
       "decimals": "-3",
       "first": true,
@@ -3448,7 +3448,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_682",
       "decimals": "-3",
       "first": true,
@@ -3471,7 +3471,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_0",
       "decimals": "-3",
       "first": true,
@@ -3500,7 +3500,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -3529,7 +3529,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_3",
       "decimals": "-3",
       "first": true,
@@ -3558,7 +3558,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_293",
       "decimals": "-3",
       "first": true,
@@ -3585,7 +3585,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_293",
       "decimals": "-3",
       "first": true,
@@ -3608,7 +3608,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_269",
       "decimals": "-3",
       "first": true,
@@ -3635,7 +3635,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_269",
       "decimals": "-3",
       "first": true,
@@ -3658,7 +3658,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -3684,7 +3684,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_254",
       "decimals": "-3",
       "lang": "en",
@@ -3706,7 +3706,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_590",
       "decimals": "-3",
       "first": true,
@@ -3733,7 +3733,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_590",
       "decimals": "-3",
       "first": true,
@@ -3756,7 +3756,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_417",
       "decimals": "-3",
       "first": true,
@@ -3782,7 +3782,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_610",
       "decimals": "-3",
       "lang": "en",
@@ -3804,7 +3804,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_2",
       "decimals": "-3",
       "first": true,
@@ -3833,7 +3833,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_659",
       "decimals": "-3",
       "first": true,
@@ -3860,7 +3860,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_659",
       "decimals": "-3",
       "first": true,
@@ -3883,7 +3883,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_624",
       "decimals": "-3",
       "first": true,
@@ -3910,7 +3910,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_624",
       "decimals": "-3",
       "first": true,
@@ -3933,7 +3933,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_679",
       "decimals": "-3",
       "first": true,
@@ -3960,7 +3960,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_679",
       "decimals": "-3",
       "first": true,
@@ -3983,7 +3983,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_254",
       "decimals": "-3",
       "first": true,
@@ -4009,7 +4009,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_299",
       "decimals": "-3",
       "lang": "en",
@@ -4031,7 +4031,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_1",
       "decimals": "-3",
       "first": true,
@@ -4060,7 +4060,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_3",
       "decimals": "-3",
       "first": true,
@@ -4086,7 +4086,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_275",
       "decimals": "-3",
       "lang": "en",
@@ -4108,7 +4108,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_291",
       "decimals": "-3",
       "first": true,
@@ -4135,7 +4135,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_291",
       "decimals": "-3",
       "first": true,
@@ -4158,7 +4158,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_267",
       "decimals": "-3",
       "first": true,
@@ -4185,7 +4185,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_267",
       "decimals": "-3",
       "first": true,
@@ -4208,7 +4208,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_256",
       "decimals": "-3",
       "first": true,
@@ -4235,7 +4235,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_256",
       "decimals": "-3",
       "first": true,
@@ -4258,7 +4258,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_592",
       "decimals": "-3",
       "first": true,
@@ -4285,7 +4285,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_592",
       "decimals": "-3",
       "first": true,
@@ -4308,7 +4308,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_3",
       "decimals": "-3",
       "first": true,
@@ -4337,7 +4337,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_612",
       "decimals": "-3",
       "first": true,
@@ -4364,7 +4364,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_612",
       "decimals": "-3",
       "first": true,
@@ -4387,7 +4387,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_661",
       "decimals": "-3",
       "first": true,
@@ -4414,7 +4414,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_661",
       "decimals": "-3",
       "first": true,
@@ -4437,7 +4437,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_626",
       "decimals": "-3",
       "first": true,
@@ -4464,7 +4464,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_626",
       "decimals": "-3",
       "first": true,
@@ -4487,7 +4487,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_681",
       "decimals": "-3",
       "first": true,
@@ -4514,7 +4514,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_681",
       "decimals": "-3",
       "first": true,
@@ -4537,7 +4537,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_12",
       "decimals": "-3",
       "first": true,
@@ -4563,7 +4563,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_7",
       "decimals": "-3",
       "lang": "en",
@@ -4585,7 +4585,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_7",
       "decimals": "-3",
       "first": true,
@@ -4611,7 +4611,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Scottsdale_Financials_SEFA.html",
+      "baseRef": "scottsdale.html",
       "contextRef": "c_326",
       "decimals": "-3",
       "lang": "en",
