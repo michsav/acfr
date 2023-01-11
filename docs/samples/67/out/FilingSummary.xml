@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.22.2.2</Version>
+  <ProcessingTime/>
+  <ReportFormat>none</ReportFormat>
+  <ContextCount>242</ContextCount>
+  <ElementCount>205</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>16</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>1</UnitCount>
+  <MyReports>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>100000 - Statement - Net Position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/NetPosition</Role>
+      <ShortName>Net Position</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>100100 - Statement - Net Position - Other Current Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherCurrentAssets</Role>
+      <ShortName>Net Position - Other Current Assets (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>100400 - Statement - Net Position - Other Noncurrent Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherNoncurrentAssets</Role>
+      <ShortName>Net Position - Other Noncurrent Assets (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>100700 - Statement - Net Position - Other Current Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherCurrentLiabilities</Role>
+      <ShortName>Net Position - Other Current Liabilities (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>101100 - Statement - Net Position - Other Restricted Components of Net Position (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionNetRestricted</Role>
+      <ShortName>Net Position - Other Restricted Components of Net Position (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200000 - Statement - Activities - Expenses and Revenues for Programs</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForPrograms</Role>
+      <ShortName>Activities - Expenses and Revenues for Programs</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200040 - Statement - Activities - Other Expenses (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherExpenses</Role>
+      <ShortName>Activities - Other Expenses (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200050 - Statement - Activities - Other Program Revenues (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherProgramUsingRevenues</Role>
+      <ShortName>Activities - Other Program Revenues (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200060 - Statement - Activities - Other Net (Expense) Revenue (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherNetExpenseRevenue</Role>
+      <ShortName>Activities - Other Net (Expense) Revenue (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200070 - Statement - Activities, Component Unit - Expenses and Revenues for Programs</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit</Role>
+      <ShortName>Activities, Component Unit - Expenses and Revenues for Programs</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200110 - Statement - Activities - General Revenues and Changes in Net Position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesGeneralRevenues</Role>
+      <ShortName>Activities - General Revenues and Changes in Net Position</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>200300 - Statement - Activities - Other General Revenues (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherGeneralRevenues</Role>
+      <ShortName>Activities - Other General Revenues (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300000 - Statement - Governmental Funds Balance Sheet, Other Funds (Unclassified)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalance</Role>
+      <ShortName>Governmental Funds Balance Sheet, Other Funds (Unclassified)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300001 - Statement - Governmental Funds Balance Sheet, Other Funds (Classified)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceClassified</Role>
+      <ShortName>Governmental Funds Balance Sheet, Other Funds (Classified)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300200 - Statement - Governmental Funds Balance Sheet, Other Funds  - Other Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherAssets</Role>
+      <ShortName>Governmental Funds Balance Sheet, Other Funds  - Other Assets (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300600 - Statement - Governmental Funds Balance Sheet, Other Funds - Other Deferred Inflows (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceDeferredInflows</Role>
+      <ShortName>Governmental Funds Balance Sheet, Other Funds - Other Deferred Inflows (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300690 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Unclassified)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceSheetTotals</Role>
+      <ShortName>Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Unclassified)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300691 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Classified)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceSheetTotalsClassified</Role>
+      <ShortName>Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Classified)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300710 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceAssetsTotals</Role>
+      <ShortName>Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Assets (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300740 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherLiabilitiesTotals</Role>
+      <ShortName>Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Liabilities (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>300745 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Deferred Inflows (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherDeferredOutflowsTotals</Role>
+      <ShortName>Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Deferred Inflows (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>400000 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, Other Funds</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsRevenuesExpenditures</Role>
+      <ShortName>Governmental Funds Revenues, Expenditures and Changes in Fund Balances, Other Funds</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>404000 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundRevenuessExpendituresTotals</Role>
+      <ShortName>Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>404100 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Revenues (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundRevenuessExpendituresOtherRevenuesTotals</Role>
+      <ShortName>Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Revenues (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>404200 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Expenditures (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundRevenuessExpendituresOtherExpendituresTotals</Role>
+      <ShortName>Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Expenditures (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>404300 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Financing Sources Uses (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/GovFundRevenuessExpendituresOtherFinancingSourcesUsesTotals</Role>
+      <ShortName>Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Financing Sources Uses (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>26</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>500000 - Statement - Proprietary Funds Net Position - Type of Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivities</Role>
+      <ShortName>Proprietary Funds Net Position - Type of Activities</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>27</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>500600 - Statement - Proprietary Funds Net Position - Type of Activities Other Current Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherCurrentLiabilities</Role>
+      <ShortName>Proprietary Funds Net Position - Type of Activities Other Current Liabilities (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>28</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>500800 - Statement - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherNoncurrentLiabilities</Role>
+      <ShortName>Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>29</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>501200 - Statement - Proprietary Funds Net Position - Business Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusiness</Role>
+      <ShortName>Proprietary Funds Net Position - Business Activities</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>30</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>501800 - Statement - Proprietary Funds Net Position - Business Activities Other Current Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherCurrentLiabilities</Role>
+      <ShortName>Proprietary Funds Net Position - Business Activities Other Current Liabilities (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>31</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>502000 - Statement - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherNoncurrentLiabilities</Role>
+      <ShortName>Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>32</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>600000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivities</Role>
+      <ShortName>Proprietary Funds Revenues Expenses - Type of Activities</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>33</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>602000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Operating Expenses (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesOperatingExpenses</Role>
+      <ShortName>Proprietary Funds Revenues Expenses - Type of Activities Other Operating Expenses (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>34</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>603050 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Contributions (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesOtherContributionsAndTransfers</Role>
+      <ShortName>Proprietary Funds Revenues Expenses - Type of Activities Other Contributions (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>35</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>604000 - Statement - Proprietary Funds Revenues Expenses -  Business Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusiness</Role>
+      <ShortName>Proprietary Funds Revenues Expenses -  Business Activities</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>36</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>606000 - Statement - Proprietary Funds Revenues Expenses -  Business Activities Other Operating Expenses (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusinessOperatingExpenses</Role>
+      <ShortName>Proprietary Funds Revenues Expenses -  Business Activities Other Operating Expenses (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>37</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>607050 - Statement - Proprietary Funds Revenues Expenses - Business Activities Other Contributions (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusinessOtherContributionsAndTransfers</Role>
+      <ShortName>Proprietary Funds Revenues Expenses - Business Activities Other Contributions (Details)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>38</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>700000 - Statement - Proprietary Funds Cash Flows - Type of Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivities</Role>
+      <ShortName>Proprietary Funds Cash Flows - Type of Activities</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>39</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>704100 - Statement - Proprietary Funds Cash Flows - Type of Activities - Reconciliation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesReconciliation</Role>
+      <ShortName>Proprietary Funds Cash Flows - Type of Activities - Reconciliation</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>40</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>705000 - Statement - Proprietary Funds Cash Flows - Business Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusiness</Role>
+      <ShortName>Proprietary Funds Cash Flows - Business Activities</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>41</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>709100 - Statement - Proprietary Funds Cash Flows - Business Activities - Reconciliation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusinessReconciliation</Role>
+      <ShortName>Proprietary Funds Cash Flows - Business Activities - Reconciliation</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>42</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>802000 - Document and Entity Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/DocumentAndEntity</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>43</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>803000 - Annual Form F65 MI - Internal Service, Enterprise Funds - Statement of Position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIInternalServiceEnterpriseStatementOfPosition</Role>
+      <ShortName>Internal Service, Enterprise Funds - Statement of Position</ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>44</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>803050 - Annual Form F65 MI - Internal Service, Enterprise Funds - Statement of Operations</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/FormF65Michigan</Role>
+      <ShortName>Internal Service, Enterprise Funds - Statement of Operations</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>45</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>804000 - Annual Form F65 MI - Governmental Funds - Statement of Position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MichiganModifiedAccrual</Role>
+      <ShortName>Governmental Funds - Statement of Position</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>46</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>804050 - Annual Form F65 MI - Governmental Funds - Statement of Operations</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIGovernmentalFundsStatementOfOperations</Role>
+      <ShortName>Governmental Funds - Statement of Operations</ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>47</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>805000 - Annual Form F65 MI - Component Unit - Statement of Position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIComponentUnitStatementOfPosition</Role>
+      <ShortName>Component Unit - Statement of Position</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>48</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>805050 - Annual Form F65 MI - Component Unit - Statement of Operations</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIComponentStatementOfOperations</Role>
+      <ShortName>Component Unit - Statement of Operations</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>49</Position>
+    </Report>
+    <Report instance="Ogemaw-20190930GRIP.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>Uncategorized Items - Ogemaw-20190930GRIP.htm</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.sec.gov/role/uncategorizedFacts</Role>
+      <ShortName>Uncategorized Items - Ogemaw-20190930GRIP.htm</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>50</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <Logs>
+    <Log type="Error">[xmlSchema1.4.2.3:refSchemaNamespace] Discovery of MI-all_2022.xsd expected namespace acfr/state/MI/all/2022 found targetNamespace https://taxonomies.xbrl.us/grip/acfr/state/MI/all/2022 - https://taxonomies.xbrl.us/grip/2022/acfr/state/MI/MI-all_2022.xsd 1 - https://taxonomies.xbrl.us/grip/2022/acfr/state/MI/MI-all_2022.xsd 1</Log>
+    <Log type="Error">[ix11.11.1.2:invalidTransformation] Fact acfr:FiscalStartDate has unrecognized transformation name date-month-day-year - Ogemaw-20190930GRIP.htm 147 - Ogemaw-20190930GRIP.htm 147</Log>
+    <Log type="Error">[ix11.11.1.2:invalidTransformation] Fact acfr:FiscalEndDate has unrecognized transformation name date-month-day-year - Ogemaw-20190930GRIP.htm 148 - Ogemaw-20190930GRIP.htm 148</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetPensionLiabilityAsset of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4211 - Ogemaw-20190930GRIP.htm 4211</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetPensionLiabilityAsset of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4212 - Ogemaw-20190930GRIP.htm 4212</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetPensionLiabilityAsset of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4213 - Ogemaw-20190930GRIP.htm 4213</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetPensionLiabilityAsset of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4214 - Ogemaw-20190930GRIP.htm 4214</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:ExpensesForGeneralGovernmentServicesAdministration of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4672 - Ogemaw-20190930GRIP.htm 4672</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:RevenueUsedForGeneralGovernmentServicesAdministration of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4673 - Ogemaw-20190930GRIP.htm 4673</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetExpenseRevenueForGovernmentAdministration of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4676 - Ogemaw-20190930GRIP.htm 4676</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetExpenseRevenueForGovernmentAdministration of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4678 - Ogemaw-20190930GRIP.htm 4678</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:ExpensesForAirportsServices of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 4771 - Ogemaw-20190930GRIP.htm 4771</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:ExpendituresForGeneralGovernmentServicesOthersModifiedAccrual of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 6539 - Ogemaw-20190930GRIP.htm 6539</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:ExpendituresForGeneralGovernmentServicesOthersModifiedAccrual of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 6541 - Ogemaw-20190930GRIP.htm 6541</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:ExpendituresForGeneralGovernmentServicesOthersModifiedAccrual of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 6542 - Ogemaw-20190930GRIP.htm 6542</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:AdditionalOtherFinancingSourcesUses of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 6671 - Ogemaw-20190930GRIP.htm 6671</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:AdditionalOtherFinancingSourcesUses of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 6674 - Ogemaw-20190930GRIP.htm 6674</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetPensionLiabilityAsset of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 7386 - Ogemaw-20190930GRIP.htm 7386</Log>
+    <Log type="Error">[ix11.12.1.2:missingReferences] Instance fact missing schema definition: acfr:NetPensionLiabilityAsset of Inline Element ix:nonFraction - Ogemaw-20190930GRIP.htm 7391 - Ogemaw-20190930GRIP.htm 7391</Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''802000 - Document and Entity Information'' of role https://taxonomies.xbrl.us/grip/acfr/roles/DocumentAndEntity does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - Ogemaw-20190930GRIP.htm  - Ogemaw-20190930GRIP.htm </Log>
+  </Logs>
+  <InputFiles>
+    <File doctype="(Source)" original="Ogemaw-20190930GRIP.htm">Ogemaw-20190930GRIP.htm</File>
+  </InputFiles>
+  <SupplementalFiles/>
+  <BaseTaxonomies>
+    <BaseTaxonomy items="945">https://taxonomies.xbrl.us/grip/2022/acfr</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>false</HasPresentationLinkbase>
+  <HasCalculationLinkbase>false</HasCalculationLinkbase>
+</FilingSummary>

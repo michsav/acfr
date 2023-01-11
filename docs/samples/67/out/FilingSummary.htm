@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta http-equiv="Cache-Control" content="no-cache"></meta><title>View Filing Data</title><script type="text/javascript" src="/include/jquery-1.4.3.min.js"></script><script type="text/javascript" src="/include/accordionMenu.js"></script><script type="text/javascript" src="/include/Show.js"></script><link rel="stylesheet" type="text/css" href="/include/interactive.css"></link><link rel="stylesheet" type="text/css" href="/include/report.css"></link><link rel="stylesheet" type="text/css" href="/include/print.css" media="print"></link><style type="text/css">
+          #menu{
+            font-family:Helvetica, Arial, sans-serif;
+            font-size:11px;
+          }
+          
+          ul#menu {
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          width:15em;
+          border:1px solid #333;
+          background-color:#F5F5EB;
+          }
+          
+          ul#menu ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            width:15em;
+            background-color:#F5F5EB; 
+          }
+          
+          ul#menu a{
+            display:block;
+            text-decoration:none;
+          }
+          
+          ul#menu li{
+            margin-top:1px;
+          }
+          
+          ul#menu li a{
+            background:#F3D673; 
+            color:black;
+            padding:0.5em;
+          }
+          
+          ul#menu li a:hover{
+            background:#aaa;
+          }
+          
+          ul#menu li ul li a{
+            background:#F5F5EB;
+            color:#BF0023;
+            padding-left:20px;
+          }
+          
+          ul#menu li ul li a:hover{
+            background:#aaa;
+            border-left:5px #000 solid;
+            padding-left:15px;
+          }</style><style type="text/css">
+          li.accordion a{
+            display:inline-block;
+          }
+          li.accordion a{
+            display:block;
+          }
+          li.octave {border-top: 1px solid black;}
+        </style><script type="text/javascript">var InstanceReportXslt = "/include/InstanceReport.xslt"; var InstanceReportXsltDoc = null; var isRedline = (location.href.indexOf("&redline=true") >= 0 || location.href.indexOf("?redline=true") >= 0);var processXsltInBrowser = "false";var reports = new Array();
+        reports[1]="all";
+        reports[2]="all";
+        reports[3]="all";
+        reports[4]="all";
+        reports[5]="all";
+        reports[6]="all";
+        reports[7]="all";
+        reports[8]="all";
+        reports[9]="all";
+        reports[10]="all";
+        reports[11]="all";
+        reports[12]="all";
+        reports[13]="all";
+        reports[14]="all";
+        reports[15]="all";
+        reports[16]="all";
+        reports[17]="all";
+        reports[18]="all";
+        reports[19]="all";
+        reports[20]="all";
+        reports[21]="all";
+        reports[22]="all";
+        reports[23]="all";
+        reports[24]="all";
+        reports[25]="all";
+        reports[26]="all";
+        reports[27]="all";
+        reports[28]="all";
+        reports[29]="all";
+        reports[30]="all";
+        reports[31]="all";
+        reports[32]="all";
+        reports[33]="all";
+        reports[34]="all";
+        reports[35]="all";
+        reports[36]="all";
+        reports[37]="all";
+        reports[38]="all";
+        reports[39]="all";
+        reports[40]="all";
+        reports[41]="all";
+        reports[42]="all";
+        reports[43]="all";
+        reports[44]="all";
+        reports[45]="all";
+        reports[46]="all";
+        reports[47]="all";
+        reports[48]="all";
+        reports[49]="all";
+        reports[50]="all";
+        reports[51]="all";
+        reports[52]="RenderingLogs.htm";
+          var parentreport = new Array();//
+                    
+        parentreport[1]=-1;
+        parentreport[2]=-1;
+        parentreport[3]=-1;
+        parentreport[4]=-1;
+        parentreport[5]=-1;
+        parentreport[6]=-1;
+        parentreport[7]=-1;
+        parentreport[8]=-1;
+        parentreport[9]=-1;
+        parentreport[10]=-1;
+        parentreport[11]=-1;
+        parentreport[12]=-1;
+        parentreport[13]=-1;
+        parentreport[14]=-1;
+        parentreport[15]=-1;
+        parentreport[16]=-1;
+        parentreport[17]=-1;
+        parentreport[18]=-1;
+        parentreport[19]=-1;
+        parentreport[20]=-1;
+        parentreport[21]=-1;
+        parentreport[22]=-1;
+        parentreport[23]=-1;
+        parentreport[24]=-1;
+        parentreport[25]=-1;
+        parentreport[26]=-1;
+        parentreport[27]=-1;
+        parentreport[28]=-1;
+        parentreport[29]=-1;
+        parentreport[30]=-1;
+        parentreport[31]=-1;
+        parentreport[32]=-1;
+        parentreport[33]=-1;
+        parentreport[34]=-1;
+        parentreport[35]=-1;
+        parentreport[36]=-1;
+        parentreport[37]=-1;
+        parentreport[38]=-1;
+        parentreport[39]=-1;
+        parentreport[40]=-1;
+        parentreport[41]=-1;
+        parentreport[42]=-1;
+        parentreport[43]=-1;
+        parentreport[44]=-1;
+        parentreport[45]=-1;
+        parentreport[46]=-1;
+        parentreport[47]=-1;
+        parentreport[48]=-1;
+        parentreport[49]=-1;
+        parentreport[50]=-1;
+        parentreport[51]=-1;  
+    var url_path = "";
+    var fetch_prefix = "";
+    var fetch_wraps_xml_in_html = "";
+    
+    	
+   function loadXmlDoc(url) {
+      var doc;
+      var jqxhr=$.ajax({type: "GET",
+                        url: url,
+                        async: false});                        
+      // code for IE
+      if (window.ActiveXObject) {
+         doc = new ActiveXObject("Msxml2.FreeThreadedDOMDocument.3.0");
+         doc.loadXML(jqxhr.responseText);
+      }      
+      // code for other browsers
+      else if (document.implementation && document.implementation.createDocument) {
+         doc=document.implementation.createDocument("","",null);
+         doc.async=true;
+         doc = jqxhr.responseXML.documentElement;
+      }      
+      return doc;
+   }
+   
+   function fixSrcAttr(src) {
+      var uri = src.substr(0,5);
+      // No change is needed if the 'src' attribute contains an embedded image
+      if (uri == 'data:') {
+         return src;
+      }
+      // EDGAR no change if already a server query format (url_path has a fetchPrefix)
+      if (url_path && src.indexOf(fetch_prefix)>0) {
+         return src;
+      }
+      // Absolute URL on EDGAR website is unchanged
+      var idx = src.lastIndexOf('https://www.sec.gov/Archives/edgar/data/')
+      if (idx > -1) {
+        return src;
+      } // For all other URLs use only basename component
+      var idx = src.lastIndexOf('/');
+      if (idx > -1) {
+         src = src.substring(idx+1,src.length);
+      }
+      return url_path + src;
+   }
+   
+   function getReport(url, xsl_url) {
+      var _url = url_path + url;
+      if (xsl_url == null) { xsl_url = InstanceReportXslt; }
+      var ext = url.substring(url.lastIndexOf('.')+1, url.length);
+      if (ext == 'htm') {
+          $.ajax({
+          type: "GET",
+          url: _url,
+          dataType: "text",
+          async:false,
+          success: function (data) { jQuery('#reportDiv').append(data)
+                  .find('img').attr('src', function(i, val) { return fixSrcAttr(val);}).end();
+              }
+          });            
+      } else if (processXsltInBrowser == 'true') {
+          $.ajax({
+          type: "GET",
+          url: _url,
+          dataType: "text",
+          async: false,
+          success: function(data) {
+                  var path;
+                  if (fetch_wraps_xml_in_html) {
+					  // remove EDGAR workstation HTML wrpping of XML
+					  data = data.replace(/<HTML><HEAD><TITLE>.+<PRE><FONT SIZE = 3>/g, ''); // header
+					  data = data.replace(/<\/FONT><\/PRE><\/BODY><\/HTML>/g, ''); // footer
+					  data = data.replace(/<P CLASS=\"page\">&nbsp;<\/P>/g, '\n'); // newlines
+					  data = data.replace(/&gt;/g, '>'); 
+					  data = data.replace(/&lt;/g, '<'); 
+					  data = data.replace(/&amp;/g, '&'); 
+					  // end of EDGAR HTML wrapping removal
+                      path = _url; // EDGAR workstation and ops GW
+                  } else {
+                      data = data.replace(/^\s+|\s+$/g, ''); // leading or trailing whitespace causes problems
+                  	  path = "/" + _url.substring(1, _url.lastIndexOf('/')+1);
+                  }
+                  
+                  // code for IE
+                  if (window.ActiveXObject) {                  
+                     xsl_doc = loadXmlDoc(xsl_url)
+                     var xslt = new ActiveXObject("Msxml2.XSLTemplate.3.0");   
+                     xslt.stylesheet = xsl_doc;
+                     var xslproc = xslt.createProcessor();
+                     var doc = new ActiveXObject("Msxml2.FreeThreadedDOMDocument.3.0");
+                   	 doc.loadXML(data);
+                     xslproc.input = doc;
+                     xslproc.addParameter("source", path );
+                     xslproc.addParameter("asPage", "true" );
+                     xslproc.transform();
+                     // Find all images and prepend the base URL to the src attribute
+                     jQuery('#reportDiv').append(jQuery(xslproc.output)
+                                         .find('img')
+                                         .attr('src', function(i, val) {
+                                                         return fixSrcAttr(val);
+                                                      }).end());
+                  }                  
+                  // code for other browsers
+                  else if (document.implementation && document.implementation.createDocument) {
+                     xsltProcessor=new XSLTProcessor();
+                     xsltProcessor.importStylesheet(loadXmlDoc(xsl_url));                  
+                     xsltProcessor.setParameter(null,"source",path);
+                     xsltProcessor.setParameter(null,"asPage","true");
+                     parser = new DOMParser();
+                     xmlDoc = parser.parseFromString(data, "text/xml");
+                     var rpt = xsltProcessor.transformToFragment(xmlDoc, document);
+                     document.getElementById("reportDiv").appendChild(rpt);
+                     FixNotesForGeckoWebkit( document.getElementById( 'reportDiv' ) );
+                     // Find all images and prepend the base URL to the src attribute
+                     jQuery('#reportDiv').find('img')
+                                         .attr('src', function(i, val) {
+                                                         return fixSrcAttr(val);
+                                                      });
+                  } else {
+                     alert('Your browser cannot handle this script');
+                  }
+                }
+            });
+               }
+   }
+   
+   function clearReportDiv() {
+      // code for IE
+      if (window.ActiveXObject) {
+         document.getElementById("reportDiv").innerHTML='';
+      }
+      
+      // code for Mozilla, Firefox, Opera, etc.
+      else if (document.implementation && document.implementation.createDocument) {
+         x = document.getElementById("reportDiv").childNodes;
+         for (i=x.length-1;i>-1;i--) {
+            node = document.getElementById("reportDiv").childNodes[i];
+            if (node) {
+               document.getElementById("reportDiv").removeChild(node);
+            }
+         }
+      }
+   }
+   
+   function loadReport(idx) {
+      if (window.XMLHttpRequest || window.ActiveXObject) {
+         clearReportDiv();
+         xsl_url = null;
+         if (reports[idx].indexOf('FilingSummary.xml') > -1) {
+            unHighlightAllMenuItems();
+            xsl_url = url_path + "RenderingLogs.xslt";
+         } 
+         if (reports[idx] == 'all') {
+            highlightAllMenuItems();
+            jQuery.ajaxSetup({async:false});
+            for (var i=1; i<reports.length; i++) {
+               if (reports[i] != 'all') {
+                  getReport(reports[i], xsl_url);
+               } else {
+               break;
+               }
+            }
+         }
+         else { 
+            getReport(reports[idx], xsl_url);
+         }
+         window.scrollTo(0,0);
+      }
+      
+      else {
+         alert('Your browser cannot handle this script');
+      }
+   }
+   
+   function highlight(link) {
+      var parent = document.getElementById( 'menu' );
+      var links = parent.getElementsByTagName( 'a' );
+      
+      for (var i = 0; i < links.length; i++){
+         if (links[i].className == 'xbrlviewer') {
+            if (links[i] == link) {
+               link.style.background = "#C1CDCD";
+            } else {
+               links[i].style.background = "#F5F5EB";
+            }
+         }
+      }
+   }
+   
+   //the parameter 'div' represents <div id="reportDiv">
+   function FixNotesForGeckoWebkit( div ){
+      //textContent is only found in "other" browsers
+      //if it exists, search it for our table - there should only be one
+      if( div.textContent ){
+         var tables = div.getElementsByTagName( 'table' );
+         if( tables.length ){
+            //loop through the tables
+           for( var t = 0; t < tables.length; t++ ){
+              var cells = tables[t].getElementsByTagName( 'td' );
+              //loop through the cells, checking for class="text" which indicates some kind of text content - this includes HTML for notes
+              for( var i = 0; i < cells.length; i++ ){
+                 var curCell = cells[ i ];
+                 if( curCell.className == 'text' ){
+                    //<td class="text" found - now check if this HTML had already been rendered - if so, we should not attempt to render it again
+                    var nodes = curCell.getElementsByTagName( '*' );
+                    if( nodes.length <= 1 ){
+                       //no "nodes" found so perform a secondary check that we have text which resembles HTML
+                       nodes = curCell.textContent.match( /<\/?[a-zA-Z]{1}\w*[^>]*>/g );
+                       if( nodes && nodes.length ){
+                          //this text does resemble HTML, use the textContent as HTML and that will convert the text to HTML content.
+                          curCell.innerHTML = curCell.textContent;
+                        }
+                     }        
+                  }
+               }
+            }
+         }
+      }
+   } 
+   
+   function applyRedline( url ) {
+       if (isRedline) {
+           return url + "&amp;redline=true";
+       } else {
+           return url;
+       }
+   }
+  
+   window.onload = function () {
+         if (window.location.href.substring(0,5)=='file:') {
+          ableToOpenReportFiles = 0;
+          try {$.ajax({type: "GET",url: reports[1],dataType: "text",async:false,
+              success: function (data) { if (data != 0) ableToOpenReportFiles = 1; }});
+          } catch (err) {}
+          if (ableToOpenReportFiles == 0) {
+            alert("In this browser environment, opening the url\n"
+            +window.location.href
+            +"\nprevents individual report files such as "
+            +reports[1]+" from opening.");}}
+      loadReport(1);
+   }
+</script></head><body style="margin: 0"><noscript><div style="color:red; font-weight:bold; text-align:center;">This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser.</div></noscript><div><table><tr><td colspan="2"><a class="xbrlviewer" style="color: black; font-weight: bold;" href="javascript:window.print();">Print Document</a></td></tr><tr><td style="vertical-align: top;"><div style="width: 170px; margin-right: 5px;"><ul id="menu"><li class="accordion octave"><a href="javascript:window.location=applyRedline('ix.html?doc=Ogemaw-20190930GRIP.htm&amp;xbrl=true')">(Source)</a></li><li class="accordion"><a id="menu_cat0" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(1);">Net Position</a></li></ul></li><li class="accordion"><a id="menu_cat1" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(2);">Net Position - Other Current Assets (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(3);">Net Position - Other Noncurrent Assets (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(4);">Net Position - Other Current Liabilities (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(5);">Net Position - Other Restricted Components of Net Position (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat2" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(6);">Activities - Expenses and Revenues for Programs</a></li></ul></li><li class="accordion"><a id="menu_cat3" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(7);">Activities - Other Expenses (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(8);">Activities - Other Program Revenues (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(9);">Activities - Other Net (Expense) Revenue (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat4" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(10);">Activities, Component Unit - Expenses and Revenues for Programs</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(11);">Activities - General Revenues and Changes in Net Position</a></li></ul></li><li class="accordion"><a id="menu_cat5" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(12);">Activities - Other General Revenues (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat6" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(13);">Governmental Funds Balance Sheet, Other Funds (Unclassified)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(14);">Governmental Funds Balance Sheet, Other Funds (Classified)</a></li></ul></li><li class="accordion"><a id="menu_cat7" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(15);">Governmental Funds Balance Sheet, Other Funds  - Other Assets (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(16);">Governmental Funds Balance Sheet, Other Funds - Other Deferred Inflows (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat8" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(17);">Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Unclassified)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(18);">Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Classified)</a></li></ul></li><li class="accordion"><a id="menu_cat9" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(19);">Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Assets (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(20);">Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Liabilities (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(21);">Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Deferred Inflows (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat10" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(22);">Governmental Funds Revenues, Expenditures and Changes in Fund Balances, Other Funds</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(23);">Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor</a></li></ul></li><li class="accordion"><a id="menu_cat11" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(24);">Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Revenues (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(25);">Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Expenditures (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(26);">Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Financing Sources Uses (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat12" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(27);">Proprietary Funds Net Position - Type of Activities</a></li></ul></li><li class="accordion"><a id="menu_cat13" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(28);">Proprietary Funds Net Position - Type of Activities Other Current Liabilities (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(29);">Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat14" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(30);">Proprietary Funds Net Position - Business Activities</a></li></ul></li><li class="accordion"><a id="menu_cat15" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(31);">Proprietary Funds Net Position - Business Activities Other Current Liabilities (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(32);">Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat16" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(33);">Proprietary Funds Revenues Expenses - Type of Activities</a></li></ul></li><li class="accordion"><a id="menu_cat17" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(34);">Proprietary Funds Revenues Expenses - Type of Activities Other Operating Expenses (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(35);">Proprietary Funds Revenues Expenses - Type of Activities Other Contributions (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat18" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(36);">Proprietary Funds Revenues Expenses -  Business Activities</a></li></ul></li><li class="accordion"><a id="menu_cat19" href="#">Notes Details</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(37);">Proprietary Funds Revenues Expenses -  Business Activities Other Operating Expenses (Details)</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(38);">Proprietary Funds Revenues Expenses - Business Activities Other Contributions (Details)</a></li></ul></li><li class="accordion"><a id="menu_cat20" href="#">Financial Statements</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(39);">Proprietary Funds Cash Flows - Type of Activities</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(40);">Proprietary Funds Cash Flows - Type of Activities - Reconciliation</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(41);">Proprietary Funds Cash Flows - Business Activities</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(42);">Proprietary Funds Cash Flows - Business Activities - Reconciliation</a></li></ul></li><li class="accordion"><a id="menu_cat21" href="#">Other</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(43);"></a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(44);">Internal Service, Enterprise Funds - Statement of Position</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(45);">Internal Service, Enterprise Funds - Statement of Operations</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(46);">Governmental Funds - Statement of Position</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(47);">Governmental Funds - Statement of Operations</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(48);">Component Unit - Statement of Position</a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(49);">Component Unit - Statement of Operations</a></li></ul></li><li class="accordion"><a id="menu_cat22" href="#">Uncategorized</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(50);">Uncategorized Items - Ogemaw-20190930GRIP.htm</a></li></ul></li><li class="accordion"><a href="javascript:loadReport(51)"><img src="/images/reports.gif" border="0" height="12" width="9" alt="Reports"></img>All Reports</a></li><li class="accordion"><a href="javascript:loadReport(52)"><img src="/images/reports.gif" border="0" height="12" width="9" alt="Logs"></img>Rendering Log</a></li></ul></div></td><td style="vertical-align: top;"><div id="reportDiv"></div></td></tr></table></div></body></html>
